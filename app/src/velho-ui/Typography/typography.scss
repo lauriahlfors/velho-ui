@@ -1,0 +1,28 @@
+.typography {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  text-decoration: none;
+}
+
+.heading {
+  &-1 {
+    font-size: 6em;
+  }
+  &-2 {
+    font-size: 4em;
+  }
+  &-3 {
+    font-size: 2em;
+  }
+}
+
+.body {
+  display: block;
+  &-1 {
+    font-size: 1em;
+  }
+  &-2 {
+    font-size: 2em;
+  }
+}
