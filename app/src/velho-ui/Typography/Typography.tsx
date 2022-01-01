@@ -18,6 +18,7 @@ export default function Typography({
     { name: 'h1', element: 'h1', class: 'heading-1' },
     { name: 'h2', element: 'h2', class: 'heading-2' },
     { name: 'h3', element: 'h3', class: 'heading-3' },
+    { name: 'h4', element: 'h4', class: 'heading-4' },
     { name: 'p1', element: 'p', class: 'body-1' },
     { name: 'p2', element: 'p', class: 'body-2' },
   ];
@@ -26,7 +27,7 @@ export default function Typography({
 
   if (
     variants.find((typography) => {
-      console.log(typography);
+      // console.log(typography);
 
       variantName = typography.element;
       variantClass = typography.class;
