@@ -17,5 +17,9 @@ export default function Button({
   // ) {
   //   buttonSize = size;
   // }
-  return createElement('button', { className: ['button'].join(' ') }, children);
+  return createElement(
+    'button',
+    { className: ['button', size].join(' ') },
+    children
+  );
 }
