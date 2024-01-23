@@ -1,3 +1,3 @@
 # Velho UI, a React UI library.
 
-## My personal UI compoennt library I like to use when developing React projects.
+## My personal UI component library that I like to use when developing React projects.
